@@ -1,0 +1,33 @@
+.content_header{
+    font-size: 3vw;
+    color: #181818;
+    text-align: left;
+    line-height: 50px;
+    display: block;
+}
+
+.content_header::after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 4px;
+    background-color: #EF6700;
+}
+
+.content_desc {
+    color: #444444;
+    font-size: 1.3vw;
+    text-align: left;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 479px){
+    .content_header{
+        font-size: 6vw;
+        line-height: 35px;
+    }
+    .content_desc{
+        font-size: 4.3vw;
+    }
+}

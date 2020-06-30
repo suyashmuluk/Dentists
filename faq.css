@@ -1,0 +1,72 @@
+.faq_header_text{
+    color: #444444;
+    font-size: 1.3vw;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.doctors_block_header{
+    text-align: center;
+    font-size: 3vw;
+    color: #181818;
+    display: block;
+}
+
+.doctors_block_header::after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 4px;
+    background-color: #EF6700;
+    margin: 0 auto;
+}
+
+.faq_card{
+    position: relative;
+    padding: 50px 3.4vw;
+    background-color: #fff;
+    box-shadow: 3px 3px 20px #DEDEDE;
+    margin-top: 20px;
+}
+
+.faq_card-border-Left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 16%;
+    height: 5px;
+    background-color: #EF6700;
+}
+
+.faq_card_title{
+    font-weight: 600;
+    color: #2B2B2B;
+    font-size: 1.5vw;
+    line-height: 25px;
+}
+
+.faq_card_desc{
+    color: #444444;
+    font-size: 1.2vw;
+    text-align: left;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 479px){
+    .doctors_block_header{
+        font-size: 6vw;
+    }
+    .faq_header_text{
+        font-size: 4.3vw;
+    }
+    .faq_card-border-Left{
+        width: 30%;
+    }
+    .faq_card_title{
+        font-size: 5.4vw;
+    }
+    .faq_card_desc{
+        font-size: 4.3vw;
+    }
+}

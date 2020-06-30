@@ -1,0 +1,136 @@
+.content_header{
+    font-size: 3vw;
+    color: #181818;
+    text-align: left;
+    line-height: 50px;
+    display: block;
+}
+
+.content_header::after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 4px;
+    background-color: #EF6700;
+}
+
+.content_desc {
+    color: #444444;
+    font-size: 1.3vw;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.smile_gallery{
+    background-color: #FFF3EA;
+}
+
+.doctors_block_header{
+    text-align: center;
+    font-size: 3vw;
+    color: #181818;
+    display: block;
+}
+
+.doctors_block_header::after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 4px;
+    background-color: #EF6700;
+    margin: 0 auto;
+}
+
+.treatment_card{
+    box-shadow: 3px 3px 10px #DEDEDE;
+}
+
+.treatment_card_text{
+    font-size: 1.8vw;
+    color: #2B2B2B;
+    font-weight: 600;
+    padding: 50px;
+}
+
+.cause_block{
+    background-color: #FFF3EA;
+    padding: 50px 7.3vw;
+}
+
+.cause_text{
+    color: #181818;
+    font-size: 3vw;
+}
+
+.before_after_block{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #FFF3EA;
+}
+
+.before_after_block_header{
+    color: #181818;
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+.do_list_items{
+    font-size: 1.3vw;
+    color: #444444;
+    position: relative;
+    display: inline-flex;
+}
+
+.do_list_items::before{
+    content: url('https://img.icons8.com/emoji/15/000000/check-mark-emoji.png');
+    position: relative;
+    margin-right: 5px;
+}
+
+.dont_list{
+    margin-top: 50px;
+}
+
+.dont_list_items{
+    font-size: 1.3vw;
+    color: #444444;
+    position: relative;
+    display: inline-flex;
+}
+
+.dont_list_items::before{
+    content: url('https://img.icons8.com/fluent/15/000000/delete-sign.png');
+    position: relative;
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 479px){
+    .content_header{
+        font-size: 6vw;
+        line-height: 35px;
+    }
+    .before_after_block:nth-child(1){
+        margin-bottom: 50px;
+    }
+    .content_desc{
+        font-size: 4.3vw;
+    }
+    .doctors_block_header{
+        font-size: 6vw;
+    }
+    .treatment_card_text{
+        font-size: 6vw;
+    }
+    .cause_text{
+        font-size: 7vw;
+    }
+    .before_after_block_header{
+        font-size: 6vw;
+    }
+    .do_list_items, .dont_list_items{
+        font-size: 4.3vw;
+    }
+}
