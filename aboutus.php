@@ -8,24 +8,24 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="./aboutus.css">
     <script src="https://kit.fontawesome.com/c2b848f28d.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/Dental-WebApp/globalstyle.css">
+    <link rel="stylesheet" href="./globalstyle.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="contact_absolute">
         <a href="tel:+">
-            <img src="/Dental-WebApp/images/img/icons/phone-fill.png" alt="">
+            <img src="./images/img/icons/phone-fill.png" alt="">
         </a>
     </div>
     <div class="message_absolute">
         <a href="mailto:">
-            <img src="/Dental-WebApp/images/img/icons/email.png" alt="">
+            <img src="./images/img/icons/email.png" alt="">
         </a>
     </div>
 
@@ -54,7 +54,7 @@
         <div class="main_content_container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img src="/Dental-WebApp/images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="./images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="content_header" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img src="/Dental-WebApp/images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="./images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -120,7 +120,7 @@
                     <div class="carousel1">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12 text-center">
-                                <img src="/Dental-WebApp/images/doctor.png" alt="" class="img_media_view">
+                                <img src="./images/doctor.png" alt="" class="img_media_view">
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="doctor_carousel_name">
@@ -143,7 +143,7 @@
                     <div class="carousel2">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12 text-center">
-                                <img src="/Dental-WebApp/images/doctor.png" alt="" class="img_media_view">
+                                <img src="./images/doctor.png" alt="" class="img_media_view">
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="doctor_carousel_name">
@@ -166,7 +166,7 @@
                     <div class="carousel3">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12 text-center">
-                                <img src="/Dental-WebApp/images/doctor.png" alt="" class="img_media_view">
+                                <img src="./images/doctor.png" alt="" class="img_media_view">
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="doctor_carousel_name">
@@ -189,7 +189,7 @@
                     <div class="carousel4">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12 text-center">
-                                <img src="/Dental-WebApp/images/doctor.png" alt="" class="img_media_view">
+                                <img src="./images/doctor.png" alt="" class="img_media_view">
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="doctor_carousel_name">

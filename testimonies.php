@@ -9,23 +9,23 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="testimonies.css">
-    <link rel="stylesheet" href="globalstyle.css">
+    <link rel="stylesheet" href="./testimonies.css">
+    <link rel="stylesheet" href="./globalstyle.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="contact_absolute">
         <a href="tel:+">
-            <img src="/Dental-WebApp/images/img/icons/phone-fill.png" alt="">
+            <img src="./images/img/icons/phone-fill.png" alt="">
         </a>
     </div>
     <div class="message_absolute">
         <a href="mailto:">
-            <img src="/Dental-WebApp/images/img/icons/email.png" alt="">
+            <img src="./images/img/icons/email.png" alt="">
         </a>
     </div>
-    <img class="parallax_effect rellax" data-rellax-speed="3" src="/Dental-WebApp/images/img/icons/inverted_comma.png" alt="">
+    <img class="parallax_effect rellax" data-rellax-speed="3" src="./images/img/icons/inverted_comma.png" alt="">
 
 
     <!-- navbar section start here -->
@@ -91,7 +91,7 @@
 
 <script>
     var rellax = new Rellax('.rellax', {
-        center:true,
+        center: true,
         // wrapper:'.custom-element'
     });
 </script>

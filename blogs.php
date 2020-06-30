@@ -16,12 +16,12 @@
 <body>
     <div class="contact_absolute">
         <a href="tel:+">
-            <img src="/Dental-WebApp/images/img/icons/phone-fill.png" alt="">
+            <img src="./images/img/icons/phone-fill.png" alt="">
         </a>
     </div>
     <div class="message_absolute">
         <a href="mailto:">
-            <img src="/Dental-WebApp/images/img/icons/email.png" alt="">
+            <img src="./images/img/icons/email.png" alt="">
         </a>
     </div>
 
@@ -49,7 +49,7 @@
     <div class="main_content_container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-12">
-                <img class="img_width" src="/Dental-WebApp/images/row_img.png" alt="">
+                <img class="img_width" src="./images/row_img.png" alt="">
             </div>
             <div class="col-lg-9 col-md-9 col-12">
                 <div class="content_header">
@@ -65,7 +65,7 @@
         </div>
         <div class="row" style="margin-top: 50px;">
             <div class="col-lg-3 col-md-3 col-12">
-                <img class="img_width" src="/Dental-WebApp/images/row_img.png" alt="">
+                <img class="img_width" src="./images/row_img.png" alt="">
             </div>
             <div class="col-lg-9 col-md-9 col-12">
                 <div class="content_header">

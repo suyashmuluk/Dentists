@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="/Dental-WebApp/twentytwenty-master/css/twentytwenty.css">
+    <link rel="stylesheet" href="./twentytwenty-master/css/twentytwenty.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="gallery.css">
-    <link rel="stylesheet" href="globalstyle.css">
+    <link rel="stylesheet" href="./gallery.css">
+    <link rel="stylesheet" href="./globalstyle.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="contact_absolute">
         <a href="tel:+">
-            <img src="/Dental-WebApp/images/img/icons/phone-fill.png" alt="">
+            <img src="./images/img/icons/phone-fill.png" alt="">
         </a>
     </div>
     <div class="message_absolute">
         <a href="mailto:">
-            <img src="/Dental-WebApp/images/img/icons/email.png" alt="">
+            <img src="./images/img/icons/email.png" alt="">
         </a>
     </div>
     <!-- navbar section start here -->
@@ -61,25 +61,25 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container1">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container2">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container3">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                 </div>
@@ -87,25 +87,25 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container4">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container5">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container6">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                 </div>
@@ -114,25 +114,25 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container7">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container8">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container9">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                 </div>
@@ -147,9 +147,8 @@
     ?>
     <!-- footer section end here -->
 
-    <script type="text/javascript" src="/Dental-WebApp/twentytwenty-master/js/jquery.event.move.js"></script>
-    <script type="text/javascript" src="/Dental-WebApp/twentytwenty-master/js/jquery.twentytwenty.js"></script>
-    <!-- <script type="text/javascript" src="/Dental-WebApp/before-after-js/custom.js"></script> -->
+    <script type="text/javascript" src="./twentytwenty-master/js/jquery.event.move.js"></script>
+    <script type="text/javascript" src="./twentytwenty-master/js/jquery.twentytwenty.js"></script>
 </body>
 
 </html>

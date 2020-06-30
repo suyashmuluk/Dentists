@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="globalstyle.css">
+    <link rel="stylesheet" href="./globalstyle.css">
     <title>Document</title>
 </head>
 
@@ -28,12 +28,12 @@
                                     <div class="social_media_icons_container">
                                         <div class="social_media_icons">
                                             <a href="#">
-                                                <img src="/Dental-WebApp/images/img/icons/Group 6825.png" alt="">
+                                                <img src="./images/img/icons/Group 6825.png" alt="">
                                             </a>
                                         </div>
                                         <div class="social_media_icons">
                                             <a href="#">
-                                                <img src="/Dental-WebApp/images/img/icons/Group 6826.png" alt="">
+                                                <img src="./images/img/icons/Group 6826.png" alt="">
                                             </a>
                                         </div>
                                     </div>
@@ -41,7 +41,7 @@
                             </div>
                             <div class="row" style="margin-top: 40px;">
                                 <div class="col-lg-2 col-md-2 col-2">
-                                    <img src="/Dental-WebApp/images/img/icons/Group 6827.png" alt="">
+                                    <img src="./images/img/icons/Group 6827.png" alt="">
                                 </div>
                                 <div class="col-lg-10 col-md-10 col-10">
                                     <div class="contact_info">
@@ -51,7 +51,7 @@
                             </div>
                             <div class="row" style="margin-top: 35px;">
                                 <div class="col-lg-2 col-md-2 col-2">
-                                    <img src="/Dental-WebApp/images/img/icons/Group 6828.png" alt="">
+                                    <img src="./images/img/icons/Group 6828.png" alt="">
                                 </div>
                                 <div class="col-lg-10 col-md-10 col-10">
                                     <div class="contact_info">
@@ -67,7 +67,7 @@
                             </div>
                             <div class="row" style="margin-top: 40px;">
                                 <div class="col-lg-2 col-md-2 col-2">
-                                    <img src="/Dental-WebApp/images/img/icons/Group 6829.png" alt="">
+                                    <img src="./images/img/icons/Group 6829.png" alt="">
                                 </div>
                                 <div class="col-lg-10 col-md-10 col-10">
                                     <div class="contact_info">
@@ -122,7 +122,7 @@
                         <div class="footer_header">Blogs</div>
                         <div class="row" style="margin-bottom: 20px">
                             <div class="col-lg-3 col-md-3 col-3">
-                                <img src="/Dental-WebApp/images/news_image1-min.png" alt="">
+                                <img src="./images/news_image1-min.png" alt="">
                             </div>
                             <div class="col-lg-9 col-md-9 col-9">
                                 <div class="page_footer__link-blog">
@@ -133,7 +133,7 @@
 
                         <div class="row" style="margin-bottom: 20px">
                             <div class="col-lg-3 col-md-3 col-3">
-                                <img src="/Dental-WebApp/images/news_image1-min.png" alt="">
+                                <img src="./images/news_image1-min.png" alt="">
                             </div>
                             <div class="col-lg-9 col-md-9 col-9">
                                 <div class="page_footer__link-blog">
@@ -144,7 +144,7 @@
 
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-3">
-                                <img src="/Dental-WebApp/images/news_image1-min.png" alt="">
+                                <img src="./images/news_image1-min.png" alt="">
                             </div>
                             <div class="col-lg-9 col-md-9 col-9">
                                 <div class="page_footer__link-blog">
@@ -174,7 +174,7 @@
         </div>
     </section>
 
-    <script src="./Dental-WebApp/instafeed.min.js"></script>
+    <script src="../instafeed.min.js"></script>
 </body>
 
 </html>

@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="faq.css">
-    <link rel="stylesheet" href="globalstyle.css">
+    <link rel="stylesheet" href="./faq.css">
+    <link rel="stylesheet" href="./globalstyle.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="contact_absolute">
         <a href="tel:+">
-            <img src="/Dental-WebApp/images/img/icons/phone-fill.png" alt="">
+            <img src="./images/img/icons/phone-fill.png" alt="">
         </a>
     </div>
     <div class="message_absolute">
         <a href="mailto:">
-            <img src="/Dental-WebApp/images/img/icons/email.png" alt="">
+            <img src="./images/img/icons/email.png" alt="">
         </a>
     </div>
 
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
-                        <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: inherit">
+                        <img src="./images/img/icons/before_pic.png" alt="" style="width: inherit">
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
-                        <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: inherit">
+                        <img src="./images/img/icons/before_pic.png" alt="" style="width: inherit">
                     </div>
                 </div>
             </div>

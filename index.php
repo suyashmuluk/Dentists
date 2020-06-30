@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="/Dental-WebApp/twentytwenty-master/css/twentytwenty.css">
+    <link rel="stylesheet" href="./twentytwenty-master/css/twentytwenty.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <script src="https://kit.fontawesome.com/c2b848f28d.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/Dental-WebApp/smooth-scroll.js"></script>
-    <script src="/Dental-Webapp/form-validate.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="/Dental-WebApp/globalstyle.css">
+    <script src="./smooth-scroll.js"></script>
+    <script src="./form-validate.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./globalstyle.css">
     <title>Document</title>
 </head>
 
@@ -24,14 +24,14 @@
     <div class="contact_absolute">
         <div class="wave_anim">
             <a href="tel:+919870287870">
-                <img src="/Dental-WebApp/images/img/icons/phone-fill.png" alt="">
+                <img src="./images/img/icons/phone-fill.png" alt="">
             </a>
         </div>
     </div>
     <div class="message_absolute">
         <div class="wave_anim">
             <a href="mailto:">
-                <img src="/Dental-WebApp/images/img/icons/email.png" alt="">
+                <img src="./images/img/icons/email.png" alt="">
             </a>
         </div>
     </div>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
-                        <img src="/Dental-WebApp/images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                        <img src="./images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
@@ -156,11 +156,11 @@
                                                 <div class="client_info_name">Christopher Doe</div>
                                                 <div class="client_info_address">Orlando, Florida</div>
                                             </div>
-                                            <img class="inverted_comma_img" src="/Dental-WebApp/images/img/icons/inverted_comma.png" alt="">
+                                            <img class="inverted_comma_img" src="./images/img/icons/inverted_comma.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-12">
-                                        <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: inherit">
+                                        <img src="./images/img/icons/before_pic.png" alt="" style="width: inherit">
                                     </div>
                                 </div>
                             </div>
@@ -179,11 +179,11 @@
                                                 <div class="client_info_name">Christopher Doe</div>
                                                 <div class="client_info_address">Orlando, Florida</div>
                                             </div>
-                                            <img class="inverted_comma_img" src="/Dental-WebApp/images/img/icons/inverted_comma.png" alt="">
+                                            <img class="inverted_comma_img" src="./images/img/icons/inverted_comma.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-12">
-                                        <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: inherit">
+                                        <img src="./images/img/icons/before_pic.png" alt="" style="width: inherit">
                                     </div>
                                 </div>
                             </div>
@@ -202,11 +202,11 @@
                                                 <div class="client_info_name">Christopher Doe</div>
                                                 <div class="client_info_address">Orlando, Florida</div>
                                             </div>
-                                            <img class="inverted_comma_img" src="/Dental-WebApp/images/img/icons/inverted_comma.png" alt="">
+                                            <img class="inverted_comma_img" src="./images/img/icons/inverted_comma.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-12">
-                                        <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: inherit">
+                                        <img src="./images/img/icons/before_pic.png" alt="" style="width: inherit">
                                     </div>
                                 </div>
                             </div>
@@ -225,31 +225,31 @@
                     </div>
                     <div class="row" style="margin-top: 50px">
                         <div class="col-lg-3 col-md-6 col-12">
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: 100%">
+                            <img src="./images/img/icons/before_pic.png" alt="" style="width: 100%">
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: 100%">
+                            <img src="./images/img/icons/before_pic.png" alt="" style="width: 100%">
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: 100%">
+                            <img src="./images/img/icons/before_pic.png" alt="" style="width: 100%">
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: 100%">
+                            <img src="./images/img/icons/before_pic.png" alt="" style="width: 100%">
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-12">
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: 100%">
+                            <img src="./images/img/icons/before_pic.png" alt="" style="width: 100%">
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: 100%">
+                            <img src="./images/img/icons/before_pic.png" alt="" style="width: 100%">
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: 100%">
+                            <img src="./images/img/icons/before_pic.png" alt="" style="width: 100%">
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: 100%">
+                            <img src="./images/img/icons/before_pic.png" alt="" style="width: 100%">
                         </div>
                     </div>
                 </div>
@@ -281,33 +281,33 @@
                         <div class="col-lg-4 col-md-4 col-12">
                             <div id="container1">
                                 <!-- The before image is first -->
-                                <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                                <img src="./images/img/icons/before_pic.png" />
                                 <!-- The after image is last -->
-                                <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                                <img src="./images/img/icons/after_pic.png" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-12" style="display: inline-flex; justify-content:center; align-items: center">
-                            <img src="/Dental-WebApp/images/img/icons/tooth_img.png" alt="">
+                            <img src="./images/img/icons/tooth_img.png" alt="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-12">
                             <div id="container2">
                                 <!-- The before image is first -->
-                                <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                                <img src="./images/img/icons/before_pic.png" />
                                 <!-- The after image is last -->
-                                <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                                <img src="./images/img/icons/after_pic.png" />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-12" style="display: inline-flex; justify-content:center; align-items: center">
-                            <img src="/Dental-WebApp/images/img/icons/brush_img.png" alt="">
+                            <img src="./images/img/icons/brush_img.png" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-12">
                             <div id="container3">
                                 <!-- The before image is first -->
-                                <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                                <img src="./images/img/icons/before_pic.png" />
                                 <!-- The after image is last -->
-                                <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                                <img src="./images/img/icons/after_pic.png" />
                             </div>
                         </div>
                     </div>
@@ -332,8 +332,8 @@
         ?>
     </section>
     <!-- footer section end here -->
-    <script type="text/javascript" src="/Dental-WebApp/twentytwenty-master/js/jquery.event.move.js"></script>
-    <script type="text/javascript" src="/Dental-WebApp/twentytwenty-master/js/jquery.twentytwenty.js"></script>
+    <script type="text/javascript" src="./twentytwenty-master/js/jquery.event.move.js"></script>
+    <script type="text/javascript" src="./twentytwenty-master/js/jquery.twentytwenty.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

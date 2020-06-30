@@ -7,24 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c2b848f28d.js"></script>
-    <link rel="stylesheet" href="/Dental-WebApp/twentytwenty-master/css/twentytwenty.css">
+    <link rel="stylesheet" href="./twentytwenty-master/css/twentytwenty.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="services.css">
-    <link rel="stylesheet" href="globalstyle.css">
+    <link rel="stylesheet" href="./services.css">
+    <link rel="stylesheet" href="./globalstyle.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="contact_absolute">
         <a href="tel:+">
-            <img src="/Dental-WebApp/images/img/icons/phone-fill.png" alt="">
+            <img src="./images/img/icons/phone-fill.png" alt="">
         </a>
     </div>
     <div class="message_absolute">
         <a href="mailto:">
-            <img src="/Dental-WebApp/images/img/icons/email.png" alt="">
+            <img src="./images/img/icons/email.png" alt="">
         </a>
     </div>
     <!-- navbar section start here -->
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img src="/Dental-WebApp/images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="./images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
         <div class="main_content_container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img src="/Dental-WebApp/images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="./images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="content_header" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
@@ -170,7 +170,7 @@
         <div class="main_content_container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img src="/Dental-WebApp/images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="./images/row_img.png" style="width: 100%" alt="" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="content_header" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
@@ -191,17 +191,17 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container1">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container2">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12" style="display: inline-flex; justify-content:center; align-items: center">
@@ -214,25 +214,25 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container3">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container4">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div id="container5">
                             <!-- The before image is first -->
-                            <img src="/Dental-WebApp/images/img/icons/before_pic.png" />
+                            <img src="./images/img/icons/before_pic.png" />
                             <!-- The after image is last -->
-                            <img src="/Dental-WebApp/images/img/icons/after_pic.png" />
+                            <img src="./images/img/icons/after_pic.png" />
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                         <div class="treatment_card">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12 pr-0">
-                                    <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: inherit">
+                                    <img src="./images/img/icons/before_pic.png" alt="" style="width: inherit">
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-12" style="display: flex;justify-content: center;align-items: center;">
                                     <div class="treatment_card_text">
@@ -263,7 +263,7 @@
                         <div class="treatment_card">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12 pr-0">
-                                    <img src="/Dental-WebApp/images/img/icons/before_pic.png" alt="" style="width: inherit">
+                                    <img src="./images/img/icons/before_pic.png" alt="" style="width: inherit">
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-12" style="display: flex;justify-content: center;align-items: center;">
                                     <div class="treatment_card_text">
@@ -286,8 +286,8 @@
     ?>
     <!-- footer section end here -->
 
-    <script type="text/javascript" src="/Dental-WebApp/twentytwenty-master/js/jquery.event.move.js"></script>
-    <script type="text/javascript" src="/Dental-WebApp/twentytwenty-master/js/jquery.twentytwenty.js"></script>
+    <script type="text/javascript" src="./twentytwenty-master/js/jquery.event.move.js"></script>
+    <script type="text/javascript" src="./twentytwenty-master/js/jquery.twentytwenty.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>

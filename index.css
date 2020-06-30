@@ -1,281 +1,282 @@
-.landing_page{
-    margin-top: 100px;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('/Dental-Webapp/images/img/bg_img.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 108px 7.3vw;
+.landing_page {
+  margin-top: 100px;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./images/img/bg_img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 108px 7.3vw;
 }
 
-.landing_page_header{
-    font-size: 4.2vw;
-    color: #181818;
-    text-align: left;
-    line-height: 75px;
-    display: block;
+.landing_page_header {
+  font-size: 4.2vw;
+  color: #181818;
+  text-align: left;
+  line-height: 75px;
+  display: block;
 }
 
 .landing_page_header::after {
-    content: '';
-    display: block;
-    position: relative;
-    width: 200px;
-    height: 5px;
-    background-color: #EF6700;
+  content: "";
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 5px;
+  background-color: #ef6700;
 }
 
-.landing_page_subtext{
-    margin: 15px 0 40px 0;
-    color: #444444;
-    font-size: 1.5vw;
+.landing_page_subtext {
+  margin: 15px 0 40px 0;
+  color: #444444;
+  font-size: 1.5vw;
 }
 
-.content_header{
-    font-size: 3vw;
-    color: #181818;
-    text-align: left;
-    line-height: 50px;
-    display: block;
+.content_header {
+  font-size: 3vw;
+  color: #181818;
+  text-align: left;
+  line-height: 50px;
+  display: block;
 }
 
-.content_header::after{
-    content: '';
-    display: block;
-    position: relative;
-    width: 80px;
-    height: 4px;
-    background-color: #EF6700;
+.content_header::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 4px;
+  background-color: #ef6700;
 }
 
-.desc_bold{
-    font-weight: 600;
+.desc_bold {
+  font-weight: 600;
 }
 
 .content_desc {
-    color: #444444;
-    font-size: 1.3vw;
-    text-align: left;
-    margin-top: 20px;
+  color: #444444;
+  font-size: 1.3vw;
+  text-align: left;
+  margin-top: 20px;
 }
 
-.testimonials_container{
-    padding: 7.3vw 7.3vw 36px 7.3vw;
+.testimonials_container {
+  padding: 7.3vw 7.3vw 36px 7.3vw;
 }
 
-.doctors_block_header{
-    text-align: center;
-    font-size: 3vw;
-    color: #181818;
-    display: block;
+.doctors_block_header {
+  text-align: center;
+  font-size: 3vw;
+  color: #181818;
+  display: block;
 }
 
-.doctors_block_header::after{
-    content: '';
-    display: block;
-    position: relative;
-    width: 80px;
-    height: 4px;
-    background-color: #EF6700;
-    margin: 0 auto;
+.doctors_block_header::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 4px;
+  background-color: #ef6700;
+  margin: 0 auto;
 }
 
-.testimonies_card{
-    position: relative;
-    padding: 50px 3.4vw;
-    background-color: #fff;
-    box-shadow: 3px 3px 20px #DEDEDE;
-    margin-top: 50px;
+.testimonies_card {
+  position: relative;
+  padding: 50px 3.4vw;
+  background-color: #fff;
+  box-shadow: 3px 3px 20px #dedede;
+  margin-top: 50px;
 }
 
-.testimonies_card-border-Left{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 16%;
-    height: 5px;
-    background-color: #EF6700;
+.testimonies_card-border-Left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 16%;
+  height: 5px;
+  background-color: #ef6700;
 }
 
-.testimonies_card_desc{
-    color: #444444;
-    font-size: 1.2vw;
-    text-align: left;
-    margin-top: 15px;
-    padding-right: 15vw;
+.testimonies_card_desc {
+  color: #444444;
+  font-size: 1.2vw;
+  text-align: left;
+  margin-top: 15px;
+  padding-right: 15vw;
 }
 
-.client_info_grid{
-    margin-top: 40px;
-    display: inline-flex;
-    align-items: center;
+.client_info_grid {
+  margin-top: 40px;
+  display: inline-flex;
+  align-items: center;
 }
 
-.client_info{
-    margin-left: 25px;
+.client_info {
+  margin-left: 25px;
 }
 
-.client_info_name{
-    font-weight: 600;
-    color: #2B2B2B;
-    font-size: 1.5vw;
+.client_info_name {
+  font-weight: 600;
+  color: #2b2b2b;
+  font-size: 1.5vw;
 }
 
-.client_info_address{
-    color: #2B2B2B;
-    font-size: 1.5vw;
+.client_info_address {
+  color: #2b2b2b;
+  font-size: 1.5vw;
 }
 
-.testimonies_card-client_img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #dedede;
+.testimonies_card-client_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #dedede;
 }
 
-.inverted_comma_img{
-    margin-left: 70px;
-    position: relative;
-    top: 35px;
+.inverted_comma_img {
+  margin-left: 70px;
+  position: relative;
+  top: 35px;
 }
 
-.appointment_block{
-    background-color: #FFF3EA;
+.appointment_block {
+  background-color: #fff3ea;
 }
 
-.content_container_secondary{
-    margin: 0 7.3vw;
-    padding: 72px 0;
+.content_container_secondary {
+  margin: 0 7.3vw;
+  padding: 72px 0;
 }
 
-.appointment_block_desc{
-    font-size: 3vw;
-    color: #181818;
+.appointment_block_desc {
+  font-size: 3vw;
+  color: #181818;
 }
 
 .owl-buttons {
-    width: 100%;
-    height: 40px;
+  width: 100%;
+  height: 40px;
 }
 
 .owl-prev,
-.owl-next{
-    transition: all 0.4s ease-in-out 0s;
+.owl-next {
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .owl-buttons .owl-prev::before,
-.owl-buttons .owl-next::before{
-    content: "\f30a";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 59px;
-    color: #EF6700;
-    line-height: 20px;
-    opacity: 0.8;
+.owl-buttons .owl-next::before {
+  content: "\f30a";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 59px;
+  color: #ef6700;
+  line-height: 20px;
+  opacity: 0.8;
 }
 
-.owl-buttons .owl-next::before{
-    content: "\f30b";
+.owl-buttons .owl-next::before {
+  content: "\f30b";
 }
 
-.owl-buttons .owl-prev:hover{
-    opacity: 1;
-    transform: translateX(-10px);
+.owl-buttons .owl-prev:hover {
+  opacity: 1;
+  transform: translateX(-10px);
 }
 
 .owl-buttons .owl-next:hover {
-    opacity: 1;
-    transform: translateX(10px);
+  opacity: 1;
+  transform: translateX(10px);
 }
 
-.owl-theme .owl-controls .owl-buttons div{
-    background: transparent ;
+.owl-theme .owl-controls .owl-buttons div {
+  background: transparent;
 }
 
-.view-all_btn{
-    background-color: #EF6700;
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.2vw;
-    padding: 13px 30px 12px 20px;
-    border-radius: 5px 0 0 5px;
-    box-shadow: 0px 3px 10px #CECECE;
-    border: 0;
-    position: absolute;
-    right: 4%;
-    bottom: 0;
-    display: inline-grid;
+.view-all_btn {
+  background-color: #ef6700;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2vw;
+  padding: 13px 30px 12px 20px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0px 3px 10px #cecece;
+  border: 0;
+  position: absolute;
+  right: 4%;
+  bottom: 0;
+  display: inline-grid;
 }
 
-.view-all_btn::before{
-    content: '\f061';
-    font-family: "Font Awesome 5 Free";
-    background-color: #C15200;
-    padding: 13px 10px 12px 15px;
-    border-radius: 0 5px 5px 0;
-    position: absolute;
-    right: -36px;
+.view-all_btn::before {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  background-color: #c15200;
+  padding: 13px 10px 12px 15px;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  right: -36px;
 }
 
-.view-all_btn:focus{
-    outline: none;
+.view-all_btn:focus {
+  outline: none;
 }
 
-@media only screen and (max-width: 767px){
-    .content_header{
-        font-size: 6vw;
-        line-height: 35px;
-    }
-    .content_desc{
-        font-size: 4.3vw;
-    }
-    .doctors_block_header{
-        font-size: 6vw;
-    }
-    .landing_page{
-        margin-top: 100px;
-    }
-    .landing_page_header{
-        font-size: 9.5vw;
-        line-height: 45px;
-    }
-    .landing_page_header:after{
-        width: 135px;
-    }
-    .landing_page_subtext{
-        font-size: 6vw;
-    }
-    .get_connected_btn{
-        font-size: 5vw;
-    }
-    .testimonies_card-border-Left{
-        width: 30%;
-    }
-    .testimonies_card_title{
-        font-size: 5.4vw;
-    }
-    .testimonies_card_desc{
-        font-size: 4.3vw;
-    }
-    .client_info_name{
-        font-size: 4.2vw;
-    }
-    .client_info_address{
-        font-size: 4.2vw;
-    }
-    .inverted_comma_img{
-        display: none;
-    }
-    .testimonies_card_desc{
-        padding-right: 6vw;
-    }
-    .appointment_block_desc{
-        font-size: 10vw;
-    }
-    .view-all_btn{
-        font-size: 4vw;
-        position: relative;
-        transform: translate(50%, 50%);
-        left: 10%;
-    }
+@media only screen and (max-width: 767px) {
+  .content_header {
+    font-size: 6vw;
+    line-height: 35px;
+  }
+  .content_desc {
+    font-size: 4.3vw;
+  }
+  .doctors_block_header {
+    font-size: 6vw;
+  }
+  .landing_page {
+    margin-top: 100px;
+  }
+  .landing_page_header {
+    font-size: 9.5vw;
+    line-height: 45px;
+  }
+  .landing_page_header:after {
+    width: 135px;
+  }
+  .landing_page_subtext {
+    font-size: 6vw;
+  }
+  .get_connected_btn {
+    font-size: 5vw;
+  }
+  .testimonies_card-border-Left {
+    width: 30%;
+  }
+  .testimonies_card_title {
+    font-size: 5.4vw;
+  }
+  .testimonies_card_desc {
+    font-size: 4.3vw;
+  }
+  .client_info_name {
+    font-size: 4.2vw;
+  }
+  .client_info_address {
+    font-size: 4.2vw;
+  }
+  .inverted_comma_img {
+    display: none;
+  }
+  .testimonies_card_desc {
+    padding-right: 6vw;
+  }
+  .appointment_block_desc {
+    font-size: 10vw;
+  }
+  .view-all_btn {
+    font-size: 4vw;
+    position: relative;
+    transform: translate(50%, 50%);
+    left: 10%;
+  }
 }
