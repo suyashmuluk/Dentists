@@ -8,6 +8,8 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -30,12 +32,6 @@
         <img src="./images/img/icons/email.png" alt="" />
       </a>
     </div>
-    <img
-      class="parallax_effect rellax"
-      data-rellax-speed="3"
-      src="./images/img/icons/inverted_comma.png"
-      alt=""
-    />
 
     <!-- navbar section start here -->
     <section>
@@ -48,8 +44,11 @@
       <div class="why_us_header">
         <div class="why_us_header_text">Testimonies</div>
         <div class="secondary_navLink">
-          <span><a href="homepage">Home</a></span>
-          <span><a href="testimonies">Testimonies</a></span>
+          <span><a href="index.html">Home</a></span>
+          <span>
+            <i class="fas fa-arrow-right arrow_right"></i>
+          </span>
+          <span><a href="testimonies.html">Testimonies</a></span>
         </div>
       </div>
     </section>
@@ -70,7 +69,12 @@
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 col-12">
-            <div class="testimonies_card">
+            <div
+              class="testimonies_card"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
               <div class="testimonies_card_img"></div>
               <div class="testimonies_card_client_name">Christopher Doe</div>
               <div class="testimonies_card_client_address">
@@ -79,11 +83,205 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-12">
-            <div class="testimonies_card">
+            <div
+              class="testimonies_card"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
               <div class="testimonies_card_img"></div>
               <div class="testimonies_card_client_name">Christopher Doe</div>
               <div class="testimonies_card_client_address">
                 Orlando, Florida
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="testimony_card"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+          style="margin-top: 50px;"
+        >
+          <div class="testimonies_card-border-Left"></div>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-12">
+              <div class="testimony_desc">
+                Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                accusantiu doloremque laudantium totam rem m accusantium
+                doloremque laudantium totam rem aperiam, eaque ipsa. aperiam,
+                eaque ipsa.
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="client_info_grid">
+                <div class="testimonies_card-client_img"></div>
+                <div class="client_info">
+                  <div class="testimonies_card_client_name">
+                    Christopher Doe
+                  </div>
+                  <div class="testimonies_card_client_address">
+                    Orlando, Florida
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div
+              class="testimony_card"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+              style="margin-top: 50px;"
+            >
+              <div class="testimony_card-border-Left"></div>
+              <div class="testimony_desc">
+                Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                accusantiu doloremque laudantium totam rem m accusantium
+                doloremque laudantium totam rem aperiam, eaque ipsa. aperiam,
+                eaque ipsa.
+              </div>
+              <div class="client_info_grid" style="margin-top: 39px;">
+                <div class="testimonies_card-client_img"></div>
+                <div class="client_info">
+                  <div class="testimonies_card_client_name">
+                    Christopher Doe
+                  </div>
+                  <div class="testimonies_card_client_address">
+                    Orlando, Florida
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div
+              class="testimony_card"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+              style="margin-top: 50px;"
+            >
+              <div class="testimony_card-border-Left"></div>
+              <div class="testimony_desc">
+                Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                accusantiu doloremque laudantium totam rem m accusantium
+                doloremque laudantium totam rem aperiam, eaque ipsa. aperiam,
+                eaque ipsa.
+              </div>
+              <div class="client_info_grid" style="margin: 50px 0 23px 0;">
+                <div class="client_info" style="margin-left: 0;">
+                  <div class="testimonies_card_client_name">
+                    Christopher Doe
+                  </div>
+                  <div class="testimonies_card_client_address">
+                    Orlando, Florida
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="doctors_block_header">
+          Professional <span style="font-weight: bold;">Comments</span>
+        </div>
+
+        <div
+          class="testimonies_card"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
+          <div class="testimonies_card-border-Left"></div>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-12">
+              <div class="testimony_desc">
+                Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                accusantium doloremque laudantium totam rem aperiam, eaque ipsa.
+              </div>
+              <div class="client_info_grid" style="margin-top: 39px;">
+                <div class="testimonies_card-client_img"></div>
+                <div class="client_info">
+                  <div class="testimonies_card_client_name">
+                    Christopher Doe
+                  </div>
+                  <div class="testimonies_card_client_address">
+                    Orlando, Florida
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <img
+                src="./images/img/icons/before_pic.png"
+                alt=""
+                style="width: inherit;"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div
+              class="testimony_card"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+              style="margin-top: 50px;"
+            >
+              <div class="testimony_card-border-Left"></div>
+              <div class="testimony_desc">
+                Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                accusantiu doloremque laudantium totam rem m accusantium
+                doloremque laudantium totam rem aperiam, eaque ipsa. aperiam,
+                eaque ipsa.
+              </div>
+              <div class="client_info_grid" style="margin-top: 39px;">
+                <div class="testimonies_card-client_img"></div>
+                <div class="client_info">
+                  <div class="testimonies_card_client_name">
+                    Christopher Doe
+                  </div>
+                  <div class="testimonies_card_client_address">
+                    Orlando, Florida
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div
+              class="testimony_card"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+              style="margin-top: 50px;"
+            >
+              <div class="testimony_card-border-Left"></div>
+              <div class="testimony_desc">
+                Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                accusantiu doloremque laudantium totam rem m accusantium
+                doloremque laudantium totam rem aperiam, eaque ipsa. aperiam,
+                eaque ipsa.
+              </div>
+              <div class="client_info_grid" style="margin-top: 39px;">
+                <div class="testimonies_card-client_img"></div>
+                <div class="client_info">
+                  <div class="testimonies_card_client_name">
+                    Christopher Doe
+                  </div>
+                  <div class="testimonies_card_client_address">
+                    Orlando, Florida
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -98,11 +296,13 @@
     </section>
     <!-- footer script end here -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.11.0/rellax.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
 
 <script>
+  AOS.init();
+
   $(function () {
     $("#include-nav").load("navbar.html");
   });

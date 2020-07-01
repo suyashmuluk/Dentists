@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -42,9 +43,15 @@
       <div class="why_us_header">
         <div class="why_us_header_text">Tooth Pain</div>
         <div class="secondary_navLink">
-          <span><a href="homepage">Home</a></span>
+          <span><a href="index.html">Home</a></span>
+          <span>
+            <i class="fas fa-arrow-right arrow_right"></i>
+          </span>
           <span><a href="#">Dental Problems</a></span>
-          <span><a href="dental-problems">Tooth Pain</a></span>
+          <span>
+            <i class="fas fa-arrow-right arrow_right"></i>
+          </span>
+          <span><a href="dentalproblems.html">Tooth Pain</a></span>
         </div>
       </div>
     </section>
@@ -55,18 +62,37 @@
       <div class="main_content_container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-12">
-            <div class="content_header">
+            <div
+              class="content_header"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
               Relationship Based
               <span style="font-weight: bold;">Dental Practice</span>
             </div>
-            <div class="content_desc">
+            <div
+              class="content_desc"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="600"
+            >
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore architecto beatae vitae dicta sunt
               explicabo.
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12"></div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <img
+              src="./images/row_img.png"
+              style="width: 100%;"
+              alt=""
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -78,7 +104,10 @@
     </section>
     <!-- footer script end here -->
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
+      AOS.init();
       $(function () {
         $("#include-nav").load("navbar.html");
       });

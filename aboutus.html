@@ -37,6 +37,104 @@
       </a>
     </div>
 
+    <!-- book appointment modal section start here -->
+    <section>
+      <div
+        class="modal fade"
+        style="z-index: 99999;"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal_header">
+              <div class="modal_title">Book <b>Appointment</b></div>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal_body_form">
+              <form action="">
+                <div>
+                  <input
+                    type="text"
+                    class="custom_input"
+                    id="name"
+                    style="margin-top: 0;"
+                    placeholder="Full name"
+                  />
+                  <div id="name-error"></div>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="custom_input"
+                    id="email"
+                    placeholder="Email(optional)"
+                  />
+                  <div id="email-error"></div>
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    class="custom_input"
+                    id="mob_number"
+                    placeholder="Phone number"
+                  />
+                  <div id="mob_number-error"></div>
+                </div>
+                <div>
+                  <input
+                    type="date"
+                    class="custom_input"
+                    id="date"
+                    placeholder="Date"
+                  />
+                  <div id="date-error"></div>
+                </div>
+                <div>
+                  <select class="custom_input" id="reference">
+                    <option selected>Reference</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <div id="reference-error"></div>
+                </div>
+                <div>
+                  <textarea
+                    class="custom_input"
+                    id="message"
+                    placeholder="Enter message here"
+                  ></textarea>
+                  <div id="message-error"></div>
+                </div>
+              </form>
+            </div>
+            <div class="modal_footer">
+              <button
+                class="get_connected_btn"
+                type="submit"
+                id="book"
+                data-dismiss="modal"
+              >
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- book appointment modal section end here -->
+
     <!-- navbar section start here -->
     <section>
       <div id="include-nav"></div>
@@ -48,8 +146,11 @@
       <div class="why_us_header">
         <div class="why_us_header_text">Why Us?</div>
         <div class="secondary_navLink">
-          <span><a href="homepage">Home</a></span>
-          <span><a href="about">Why us?</a></span>
+          <span><a href="index.html">Home</a></span>
+          <span>
+            <i class="fas fa-arrow-right arrow_right"></i>
+          </span>
+          <span><a href="aboutus.html">Why us?</a></span>
         </div>
       </div>
     </section>
@@ -66,7 +167,7 @@
               alt=""
               data-aos="fade-up"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="500"
             />
           </div>
           <div class="col-lg-6 col-md-6 col-12">
@@ -74,7 +175,7 @@
               class="content_header"
               data-aos="fade-left"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="600"
             >
               Relationship Based
               <span style="font-weight: bold;">Dental Practice</span>
@@ -83,7 +184,7 @@
               class="content_desc"
               data-aos="fade-left"
               data-aos-easing="linear"
-              data-aos-duration="1300"
+              data-aos-duration="700"
             >
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -101,7 +202,7 @@
               class="content_header"
               data-aos="fade-right"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="500"
             >
               Awesome <span style="font-weight: bold;">Technology</span>
             </div>
@@ -109,7 +210,7 @@
               class="content_desc"
               data-aos="fade-right"
               data-aos-easing="linear"
-              data-aos-duration="1300"
+              data-aos-duration="600"
             >
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -124,7 +225,7 @@
               alt=""
               data-aos="fade-up"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="700"
             />
           </div>
         </div>
@@ -140,7 +241,11 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12 btn_container">
-              <button class="get_connected_btn">
+              <button
+                class="get_connected_btn"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Book Appointment
               </button>
             </div>

@@ -241,37 +241,9 @@ select:focus {
 textarea:focus {
   outline: 2px solid #ff9310 !important;
 }
-
-.wave_anim {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  border: 2px solid #cecece;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation-name: wave;
-  animation-timing-function: ease-in-out;
-  animation-duration: 2s;
-  animation-delay: 2s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-}
-
-@keyframes wave {
-  0% {
-    width: 32px;
-    height: 32px;
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    width: 50px;
-    height: 50px;
-    opacity: 0;
-  }
+.arrow_right{
+  font-size: 15px;
+  color: #EF6700;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 768px) {

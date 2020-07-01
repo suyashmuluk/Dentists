@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -31,6 +32,104 @@
       </a>
     </div>
 
+    <!-- book appointment modal section start here -->
+    <section>
+      <div
+        class="modal fade"
+        style="z-index: 99999;"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal_header">
+              <div class="modal_title">Book <b>Appointment</b></div>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal_body_form">
+              <form action="">
+                <div>
+                  <input
+                    type="text"
+                    class="custom_input"
+                    id="name"
+                    style="margin-top: 0;"
+                    placeholder="Full name"
+                  />
+                  <div id="name-error"></div>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="custom_input"
+                    id="email"
+                    placeholder="Email(optional)"
+                  />
+                  <div id="email-error"></div>
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    class="custom_input"
+                    id="mob_number"
+                    placeholder="Phone number"
+                  />
+                  <div id="mob_number-error"></div>
+                </div>
+                <div>
+                  <input
+                    type="date"
+                    class="custom_input"
+                    id="date"
+                    placeholder="Date"
+                  />
+                  <div id="date-error"></div>
+                </div>
+                <div>
+                  <select class="custom_input" id="reference">
+                    <option selected>Reference</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <div id="reference-error"></div>
+                </div>
+                <div>
+                  <textarea
+                    class="custom_input"
+                    id="message"
+                    placeholder="Enter message here"
+                  ></textarea>
+                  <div id="message-error"></div>
+                </div>
+              </form>
+            </div>
+            <div class="modal_footer">
+              <button
+                class="get_connected_btn"
+                type="submit"
+                id="book"
+                data-dismiss="modal"
+              >
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- book appointment modal section end here -->
+
     <!-- navbar section start here -->
     <section>
       <div id="include-nav"></div>
@@ -42,8 +141,11 @@
       <div class="why_us_header">
         <div class="why_us_header_text">Work with us</div>
         <div class="secondary_navLink">
-          <span><a href="homepage">Home</a></span>
-          <span><a href="work-with-us">Work with us</a></span>
+          <span><a href="index.html">Home</a></span>
+          <span>
+            <i class="fas fa-arrow-right arrow_right"></i>
+          </span>
+          <span><a href="workwithus.html">Work with us</a></span>
         </div>
       </div>
     </section>
@@ -54,30 +156,68 @@
       <div class="main_content_container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-12">
-            <div class="content_header">
+            <div
+              class="content_header"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
               Setting up a camp and
               <span style="font-weight: bold;">Need Doctors?</span>
             </div>
-            <div class="content_desc">
+            <div
+              class="content_desc"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="600"
+            >
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore architecto beatae vitae dicta sunt
               explicabo.
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12"></div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <img
+              src="./images/row_img.png"
+              style="width: 100%;"
+              alt=""
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            />
+          </div>
         </div>
       </div>
 
       <div class="main_content_container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-12"></div>
           <div class="col-lg-6 col-md-6 col-12">
-            <div class="content_header">
+            <img
+              src="./images/row_img.png"
+              style="width: 100%;"
+              alt=""
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div
+              class="content_header"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="600"
+            >
               Volunteering and Social Work
               <span style="font-weight: bold;">Need Doctors?</span>
             </div>
-            <div class="content_desc">
+            <div
+              class="content_desc"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore architecto beatae vitae dicta sunt
@@ -97,7 +237,11 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12 btn_container">
-              <button class="get_connected_btn">
+              <button
+                class="get_connected_btn"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Book Appointment
               </button>
             </div>
@@ -108,18 +252,37 @@
       <div class="main_content_container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-12">
-            <div class="content_header">
+            <div
+              class="content_header"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
               Want us to have/or
               <span style="font-weight: bold;">use your Products?</span>
             </div>
-            <div class="content_desc">
+            <div
+              class="content_desc"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="600"
+            >
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore architecto beatae vitae dicta sunt
               explicabo.
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12"></div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <img
+              src="./images/row_img.png"
+              style="width: 100%;"
+              alt=""
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -130,10 +293,12 @@
       <div id="include-footer"></div>
     </section>
     <!-- footer script end here -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
 
 <script>
+  AOS.init();
   $(function () {
     $("#include-nav").load("navbar.html");
   });

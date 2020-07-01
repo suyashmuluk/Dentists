@@ -1,58 +1,110 @@
-.parallax_effect{
-    position: absolute;
-    top: 100%;
-}
-.testimonies_subtext{
-    color: #444444;
-    font-size: 1.3vw;
-    text-align: center;
-    margin-bottom: 50px;
+.testimonies_subtext {
+  color: #444444;
+  font-size: 1.3vw;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.doctors_block_header{
-    text-align: center;
-    font-size: 3vw;
-    color: #181818;
-    display: block;
-    padding-top: 50px;
-    margin-bottom: 50px;
+.doctors_block_header {
+  text-align: center;
+  font-size: 3vw;
+  color: #181818;
+  display: block;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
-.doctors_block_header::after{
-    content: '';
-    display: block;
-    position: relative;
-    width: 80px;
-    height: 4px;
-    background-color: #EF6700;
-    margin: 0 auto;
+.doctors_block_header::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 4px;
+  background-color: #ef6700;
+  margin: 0 auto;
 }
 
-.testimonies_card{
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 3px 3px 20px #dedede;
+.testimonies_card {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px #dedede;
 }
 
-.testimonies_card_client_name{
-    text-align: center;
-    color: #2B2B2B;
-    font-weight: 600;
-    font-size: 1.4vw;
+.testimony_card {
+  position: relative;
+  padding: 50px 3.4vw 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px #dedede;
 }
 
-.testimonies_card_client_address{
-    text-align: center;
-    color: #2B2B2B;
-    font-size: 1.4vw;
+.testimonies_card_client_name {
+  text-align: center;
+  color: #2b2b2b;
+  font-weight: 600;
+  font-size: 1.4vw;
 }
 
-@media only screen and (max-width: 479px){
-    .doctors_block_header{
-        font-size: 6vw;
-    }
-    .testimonies_subtext, .testimonies_card_client_name, .testimonies_card_client_address{
-        font-size: 4.3vw;
-    }
+.testimonies_card_client_address {
+  text-align: center;
+  color: #2b2b2b;
+  font-size: 1.4vw;
+}
+
+.testimonies_card-border-Left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 16%;
+  height: 5px;
+  background-color: #ef6700;
+}
+
+.testimony_card-border-Left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 5px;
+  background-color: #ef6700;
+}
+
+.testimony_desc {
+  color: #444444;
+  font-size: 1.2vw;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.client_info_grid {
+  display: flex;
+  align-items: center;
+}
+
+.client_info {
+  margin-left: 2.2vw;
+}
+
+.testimonies_card-client_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #dedede;
+}
+
+@media only screen and (max-width: 479px) {
+  .doctors_block_header {
+    font-size: 6vw;
+  }
+  .testimonies_subtext,
+  .testimonies_card_client_name,
+  .testimonies_card_client_address,
+  .testimony_desc {
+    font-size: 4.3vw;
+  }
+  .client_info_grid {
+    margin-top: 39px;
+  }
 }
