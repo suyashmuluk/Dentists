@@ -241,9 +241,9 @@ select:focus {
 textarea:focus {
   outline: 2px solid #ff9310 !important;
 }
-.arrow_right{
+.arrow_right {
   font-size: 15px;
-  color: #EF6700;
+  color: #ef6700;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 768px) {

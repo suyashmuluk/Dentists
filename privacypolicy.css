@@ -1,58 +1,78 @@
-.privacy_policy_text{
-    color: #444444;
-    font-size: 1.3vw;
+.parallax-top-left {
+  position: absolute;
+  top: 70%;
+  left: 3%;
+  opacity: 0.5;
 }
 
-.privacy_policy_text:not(:nth-child(1)){
-    margin-top: 20px;
+.parallax-center-right {
+  position: absolute;
+  top: 120%;
+  right: 3%;
+  opacity: 0.5;
 }
 
-.content_header{
-    font-size: 3vw;
-    color: #181818;
-    text-align: left;
-    line-height: 50px;
-    display: block;
+.parallax-bottom-left {
+  position: absolute;
+  top: 150%;
+  left: 3%;
+  opacity: 0.5;
 }
 
-.content_header::after{
-    content: '';
-    display: block;
-    position: relative;
-    width: 80px;
-    height: 4px;
-    background-color: #EF6700;
+.privacy_policy_text {
+  color: #444444;
+  font-size: 1.3vw;
 }
 
-.policy_text_number{
-    margin-right: 10px;
+.privacy_policy_text:not(:nth-child(1)) {
+  margin-top: 20px;
 }
 
-.policy_list{
-    display: inline-flex;
-    font-size: 3vw;
-    margin-top: 50px;
+.content_header {
+  font-size: 3vw;
+  color: #181818;
+  text-align: left;
+  line-height: 50px;
+  display: block;
 }
 
-.data_collection_text{
-    color: #181818;
-    font-size: 1.8vw;
-    margin-top: 30px;
+.content_header::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 4px;
+  background-color: #ef6700;
 }
 
+.policy_text_number {
+  margin-right: 10px;
+}
 
-@media only screen and (max-width: 479px){
-    .content_header{
-        font-size: 6vw;
-        line-height: 35px;
-    }
-    .policy_text_number{
-        font-size: 6vw;
-    }
-    .privacy_policy_text{
-        font-size: 4.3vw;
-    }
-    .data_collection_text{
-        font-size: 5.8vw;
-    }
+.policy_list {
+  display: inline-flex;
+  font-size: 3vw;
+  margin-top: 50px;
+}
+
+.data_collection_text {
+  color: #181818;
+  font-size: 1.8vw;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 479px) {
+  .content_header {
+    font-size: 6vw;
+    line-height: 35px;
+  }
+  .policy_text_number {
+    font-size: 6vw;
+  }
+  .privacy_policy_text {
+    font-size: 4.3vw;
+  }
+  .data_collection_text {
+    font-size: 5.8vw;
+  }
 }
